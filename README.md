@@ -67,7 +67,7 @@ Chaque ligne du plan indique un responsable proposé, un délai prévisionnel et
 
 Les sept articles d'exigences (4 à 10) permettent de retrouver le rattachement normatif des évaluations. Ils constituent un **niveau de détail technique**, et non les étapes principales du projet.
 
-| Chapitre | Domaine | Taux annoncé dans le diagnostic détaillé |
+| Référence ISO 21001 | Domaine évalué | Conformité relevée |
 | :--- | :--- | ---: |
 | 4 | Contexte de l'organisme | 73 % |
 | 5 | Leadership | 70 % |
@@ -77,16 +77,16 @@ Les sept articles d'exigences (4 à 10) permettent de retrouver le rattachement 
 | 9 | Évaluation des performances | **38 %*** |
 | 10 | Amélioration | 84 % |
 
-*Le chapitre 9 apparaît aussi à **54 %** dans une figure de synthèse. L'application privilégie pour cet article la valeur du diagnostic détaillé et signale explicitement la divergence ; aucun des deux chiffres n'est certifié de manière indépendante.*
+*Pour l'évaluation des performances (article 9), deux valeurs contradictoires sont présentes dans les données : **38 %** et **54 %**. L'application retient **38 %** pour l'affichage et signale cet écart ; sa vérification reste nécessaire.*
 
 ### Vérification de la grille d'évaluation
 
-- **72 critères numérotés** de `cr1` à `cr72`, couverts par sept groupes de chapitres.
+- **72 critères numérotés** de `cr1` à `cr72`, regroupés selon les sept domaines d'exigences ISO 21001.
 - Barème de véracité de **0 %, 30 %, 70 % et 100 %**.
 - Répartition constatée en reprenant les lignes numérotées : **21 satisfaisants, 25 partiellement conformes à 70 %, 22 partiellement conformes à 30 %, 4 non conformes** — soit 72 au total.
 - Le tableau récapitulatif annonce **71 évaluations**, dont **3 non conformes**. La différence ne doit pas être masquée ; les statistiques de la grille interactive reposent sur les 72 lignes effectivement numérotées.
 
-Les résultats par chapitre sont les **taux annoncés dans l'étude**, et non une moyenne nouvelle des scores individuels. La vérification des divergences fait partie des limites identifiées.
+Les taux par domaine correspondent aux valeurs reprises dans le diagnostic ; ils ne sont pas présentés comme des moyennes recalculées à partir des 72 critères. Les divergences identifiées doivent être vérifiées.
 
 ## Explorer l'application interactive
 
