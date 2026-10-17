@@ -2,7 +2,7 @@
 
 **Étude de cas : école d'ingénieurs · Management de la qualité · Diagnostic organisationnel**
 
-[**🌐 OUVRIR LA DÉMO INTERACTIVE**](https://elmokhtarrayadi21-creator.github.io/diagnostic-iso-21001/)
+[**🌐 OUVRIR LA DÉMO INTERACTIVE**](https://elmokhtarrayadi.github.io/diagnostic-iso-21001/)
 
 [Consulter le code de l’application](./index.html)
 
@@ -90,7 +90,7 @@ Les taux par domaine correspondent aux valeurs reprises dans le diagnostic ; ils
 
 ## Explorer l'application interactive
 
-La [**démonstration ISO 21001**](https://elmokhtarrayadi21-creator.github.io/diagnostic-iso-21001/) reprend la démarche en six rubriques : synthèse, évaluation de la conformité, identification des écarts, analyse Ishikawa, planification des actions et comparaison de scénarios.
+La [**démonstration ISO 21001**](https://elmokhtarrayadi.github.io/diagnostic-iso-21001/) reprend la démarche en six rubriques : synthèse, évaluation de la conformité, identification des écarts, analyse Ishikawa, planification des actions et comparaison de scénarios.
 
 Le visiteur peut **rechercher et filtrer les 72 critères**, consulter les évaluations détaillées par article ISO, explorer les branches de l'Ishikawa, filtrer et exporter le plan d'action au format CSV, et modifier les taux dans une **simulation pédagogique**. Cette simulation n'est pas une mesure de résultats obtenus.
 
@@ -118,4 +118,4 @@ Application statique HTML/CSS/JavaScript, sans compte utilisateur ni stockage ex
 
 **Elmokhtar Rayadi** — Étudiant ingénieur en génie mécanique des systèmes industriels.
 
-[**Retour au portfolio**](https://github.com/elmokhtarrayadi21-creator)
+[**Retour au portfolio**](https://github.com/elmokhtarrayadi)
