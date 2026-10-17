@@ -2,7 +2,9 @@
 
 **Étude de cas : école d'ingénieurs · Management de la qualité · Diagnostic organisationnel**
 
-[**Explorer l'application interactive**](https://elmokhtarrayadi21-creator.github.io/diagnostic-iso-21001/)
+[**Consulter les fichiers de l’application HTML**](./index.html)
+
+*La démonstration web sera disponible après activation de GitHub Pages.*
 
 ![Diagnostic qualité ISO 21001 — tableau de bord](./cover.svg)
 
