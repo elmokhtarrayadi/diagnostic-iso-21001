@@ -10,19 +10,62 @@
 
 ## Résumé du projet
 
-L'objectif est d'examiner la conformité du système de management d'une **école d'ingénieurs** aux exigences de la norme **ISO 21001**, puis de formuler des propositions pour améliorer ses processus et le suivi de la qualité. Le diagnostic couvre les **sept chapitres d'exigences, de 4 à 10**, à travers une grille de **72 critères numérotés**. Les écarts sont interprétés à l'aide d'un **diagramme d'Ishikawa 5M** présentant **15 facteurs potentiels**, puis traduits en un **plan de 14 actions** avec responsables, délais prévisionnels et indicateurs de suivi.
+**Problème étudié.** Comment identifier les faiblesses du management de la qualité dans une **école d'ingénieurs**, comprendre les causes possibles des dysfonctionnements et proposer des mesures de progrès ?
 
-**Résultat marquant :** le chapitre **6 — Planification** affiche **46 %**, ce qui en fait un axe d'amélioration prioritaire parmi les taux présentés. **Limites à retenir :** le récapitulatif compte 71 évaluations contre 72 critères numérotés, et deux valeurs sont rapportées pour le chapitre 9 (38 % / 54 %). Il s'agit d'un **diagnostic académique**, pas d'une certification ni d'un plan d'action déjà déployé.
+**Travail présenté.** Une évaluation des pratiques à l'aide de **72 critères numérotés**, suivie de l'interprétation des écarts, d'une analyse de **15 facteurs potentiels** par Ishikawa 5M, et d'un **plan de 14 actions proposées** avec responsables, délais et indicateurs.
 
-## Présentation de la démarche
+**Résultat important.** Le domaine de la **planification** affiche **46 % de conformité** dans le diagnostic et fait partie des priorités d'amélioration. L'étude met également en évidence des données à consolider (71 évaluations dans la synthèse contre 72 critères numérotés ; 38 % ou 54 % pour l'article 9). Il ne s'agit ni d'une certification ni d'une amélioration déjà réalisée.
 
-Cette étude de cas examine l'intégration d'une démarche de management de la qualité ISO 21001 dans une école d'ingénieurs. La démarche associe **analyse des exigences**, **diagnostic par grille d'évaluation**, **examen des écarts**, **Ishikawa 5M** et **plan d'action d'amélioration continue**.
+## Démarche d'ingénierie qualité
 
-L'application met les résultats en forme pour faciliter leur lecture et leur interprétation. Elle distingue les résultats de l'évaluation, les propositions d'amélioration et les simulations.
+L'étude s'organise autour des **décisions à prendre à partir du diagnostic**, et non autour d'une présentation successive des chapitres de la norme :
 
-## Diagnostic : données de référence
+| Étape | Question traitée | Travail présenté |
+| :--- | :--- | :--- |
+| **1. Évaluer** | Où en sont les pratiques ? | Grille de diagnostic, critères et niveaux de conformité |
+| **2. Identifier** | Quels écarts faut-il traiter ? | Résultats, non-conformités et domaines prioritaires |
+| **3. Analyser** | Quelles causes pourraient expliquer les écarts ? | Diagramme Ishikawa, cinq familles 5M |
+| **4. Proposer** | Quelles mesures concrètes retenir ? | Plan d'action, responsables, délais et KPI |
+| **5. Comparer** | Comment interpréter un scénario théorique ? | Simulation illustrative des taux, sans prétendre à un progrès mesuré |
 
-Le diagnostic est organisé selon les sept chapitres d'exigences 4 à 10.
+Les **articles ISO 21001** sont conservés dans la grille détaillée comme référentiel de vérification. La cartographie des processus sert de proposition méthodologique, sans supposer qu'elle a déjà été déployée.
+
+## Identifier les écarts et les priorités
+
+Les critères détaillés permettent d'identifier des besoins concrets, par exemple :
+
+| Critère | Constats d'évaluation | Score | Réponse proposée |
+| :--- | :--- | ---: | :--- |
+| `cr22` | Identification des risques | 30 % | Cartographie des risques (3 mois) |
+| `cr25` | Objectifs éducatifs mesurables | 30 % | Objectifs SMART et KPI (2 mois) |
+| `cr40` | Maîtrise documentaire | 30 % | Procédure documentaire (2 mois) |
+| `cr62` | Programme d'audit interne | 0 % | Audits périodiques (6 mois) |
+
+Ces durées correspondent au **plan d'action proposé** ; elles ne sont pas présentées comme des délais réellement tenus.
+
+## Rechercher les causes des écarts — Ishikawa 5M
+
+Le diagramme regroupe les **15 facteurs** examinés selon cinq catégories :
+
+| Catégorie | Facteurs principaux |
+| :--- | :--- |
+| **Main-d'œuvre** | Sensibilisation limitée, formation insuffisante, faible implication des acteurs |
+| **Méthodes** | Procédures non formalisées, manque de KPI, suivi pédagogique insuffisant |
+| **Milieu** | Communication interne, complexité organisationnelle, résistance au changement |
+| **Matériel** | Équipements limités, outils numériques insuffisants, ressources techniques insuffisantes |
+| **Matière** | Documentation incomplète, supports non standardisés, traçabilité insuffisante |
+
+Le diagramme est interactif : chaque famille donne accès à une explication des facteurs et aux mesures d'amélioration associées. **Ces facteurs sont des causes potentielles à confirmer**, et non des causes ayant fait l'objet d'une démonstration causale chiffrée.
+
+## Plan d'amélioration proposé
+
+Les **14 actions** structurent les réponses envisagées aux écarts : gouvernance qualité, risques, objectifs SMART, formation, maîtrise documentaire, audits internes et suivi des indicateurs.
+
+Chaque ligne du plan indique un responsable proposé, un délai prévisionnel et un indicateur de suivi. **Aucune action n'est présentée comme achevée** ; leur efficacité nécessiterait une mise en œuvre et une évaluation ultérieure.
+
+## Référentiel technique — exigences ISO 21001
+
+Les sept articles d'exigences (4 à 10) permettent de retrouver le rattachement normatif des évaluations. Ils constituent un **niveau de détail technique**, et non les étapes principales du projet.
 
 | Chapitre | Domaine | Taux annoncé dans le diagnostic détaillé |
 | :--- | :--- | ---: |
@@ -45,41 +88,11 @@ Le diagnostic est organisé selon les sept chapitres d'exigences 4 à 10.
 
 Les résultats par chapitre sont les **taux annoncés dans l'étude**, et non une moyenne nouvelle des scores individuels. La vérification des divergences fait partie des limites identifiées.
 
-## Analyse des non-conformités : Ishikawa 5M
+## Explorer l'application interactive
 
-Le diagramme regroupe les **15 facteurs** examinés selon cinq catégories :
+La [**démonstration ISO 21001**](https://elmokhtarrayadi21-creator.github.io/diagnostic-iso-21001/) reprend la démarche en six rubriques : synthèse, évaluation de la conformité, identification des écarts, analyse Ishikawa, planification des actions et comparaison de scénarios.
 
-| Catégorie | Facteurs principaux |
-| :--- | :--- |
-| **Main-d'œuvre** | Sensibilisation limitée, formation insuffisante, faible implication des acteurs |
-| **Méthodes** | Procédures non formalisées, manque de KPI, suivi pédagogique insuffisant |
-| **Milieu** | Communication interne, complexité organisationnelle, résistance au changement |
-| **Matériel** | Équipements limités, outils numériques insuffisants, ressources techniques insuffisantes |
-| **Matière** | Documentation incomplète, supports non standardisés, traçabilité insuffisante |
-
-Le diagramme est interactif : chaque famille donne accès à une explication des facteurs et aux mesures d'amélioration associées. **Ces facteurs sont des causes potentielles à confirmer**, et non des causes ayant fait l'objet d'une démonstration causale chiffrée.
-
-## Écarts prioritaires
-
-Les critères détaillés permettent d'identifier des besoins concrets, par exemple :
-
-| Critère | Constats d'évaluation | Score | Réponse proposée |
-| :--- | :--- | ---: | :--- |
-| `cr22` | Identification des risques | 30 % | Cartographie des risques (3 mois) |
-| `cr25` | Objectifs éducatifs mesurables | 30 % | Objectifs SMART et KPI (2 mois) |
-| `cr40` | Maîtrise documentaire | 30 % | Procédure documentaire (2 mois) |
-| `cr62` | Programme d'audit interne | 0 % | Audits périodiques (6 mois) |
-
-Ces durées correspondent au **plan d'action proposé** ; elles ne sont pas présentées comme des délais réellement tenus.
-
-## Fonctionnalités interactives
-
-1. **Tableau de bord** : lecture des principaux indicateurs et taux par chapitre.
-2. **Architecture des processus** : représentation conceptuelle pilotage / réalisation / support / amélioration.
-3. **Diagnostic ISO** : consultation des sept chapitres et d'une grille filtrable de **72 critères**, avec recherche, statut et export CSV.
-4. **Ishikawa 5M** : véritable diagramme causes–effets avec 15 facteurs et navigation par famille.
-5. **Plan d'amélioration** : 14 actions proposées, responsables, délais et KPI, avec filtres et export CSV.
-6. **Simulation** : calcul théorique de la moyenne des sept taux affichés. **Ce calcul ne représente pas une mesure d'amélioration obtenue.**
+Le visiteur peut **rechercher et filtrer les 72 critères**, consulter les évaluations détaillées par article ISO, explorer les branches de l'Ishikawa, filtrer et exporter le plan d'action au format CSV, et modifier les taux dans une **simulation pédagogique**. Cette simulation n'est pas une mesure de résultats obtenus.
 
 ## Démarche qualité
 
