@@ -8,7 +8,13 @@
 
 ![Diagnostic qualité ISO 21001 — tableau de bord](./cover.svg)
 
-## Le projet en bref
+## Résumé du projet
+
+L'objectif est d'examiner la conformité du système de management d'une **école d'ingénieurs** aux exigences de la norme **ISO 21001**, puis de formuler des propositions pour améliorer ses processus et le suivi de la qualité. Le diagnostic couvre les **sept chapitres d'exigences, de 4 à 10**, à travers une grille de **72 critères numérotés**. Les écarts sont interprétés à l'aide d'un **diagramme d'Ishikawa 5M** présentant **15 facteurs potentiels**, puis traduits en un **plan de 14 actions** avec responsables, délais prévisionnels et indicateurs de suivi.
+
+**Résultat marquant :** le chapitre **6 — Planification** affiche **46 %**, ce qui en fait un axe d'amélioration prioritaire parmi les taux présentés. **Limites à retenir :** le récapitulatif compte 71 évaluations contre 72 critères numérotés, et deux valeurs sont rapportées pour le chapitre 9 (38 % / 54 %). Il s'agit d'un **diagnostic académique**, pas d'une certification ni d'un plan d'action déjà déployé.
+
+## Présentation de la démarche
 
 Cette étude de cas examine l'intégration d'une démarche de management de la qualité ISO 21001 dans une école d'ingénieurs. La démarche associe **analyse des exigences**, **diagnostic par grille d'évaluation**, **examen des écarts**, **Ishikawa 5M** et **plan d'action d'amélioration continue**.
 
