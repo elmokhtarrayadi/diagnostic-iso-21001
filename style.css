@@ -255,3 +255,12 @@ h3{font-size:14px}
 .hero-col{position:relative}
 .hero-col small{position:absolute;left:50%;top:calc(100% + 5px);transform:translateX(-50%);margin:0;white-space:nowrap}
 .result-card .eyebrow{color:var(--teal)!important}
+
+
+/* Résumé du diagnostic : lisibilité immédiate pour le lecteur */
+.project-summary{margin-top:17px;margin-bottom:7px;padding:23px 26px;background:#fff;border:1px solid #dce6eb;border-left:3px solid #197a74;border-radius:4px}
+.project-summary-heading{display:flex;align-items:baseline;gap:15px;flex-wrap:wrap;margin-bottom:10px}
+.project-summary-heading h2{font-size:17px;font-weight:750;letter-spacing:-.015em;color:#2c4d5d;margin:0}
+.project-summary p{max-width:1110px;color:#54717f;font-size:13px;line-height:1.76;margin:0}
+.project-summary p strong{color:#294b59;font-weight:730}
+@media(max-width:550px){.project-summary{padding:18px 16px}.project-summary-heading{display:block}.project-summary-heading h2{margin-top:7px}.project-summary p{font-size:12px}}
