@@ -287,3 +287,15 @@ h3{font-size:14px}
 @media(max-width:1250px){.workflow-overview .steps{grid-template-columns:repeat(3,minmax(0,1fr))}.workflow-step{min-height:170px}}
 @media(max-width:780px){.workflow-overview .steps{grid-template-columns:repeat(2,minmax(0,1fr))}.workflow-overview .workflow-intro{display:block}.workflow-overview .workflow-intro p{max-width:none;margin-top:6px}}
 @media(max-width:450px){.workflow-overview .steps{grid-template-columns:1fr}.workflow-step{min-height:0;padding:15px}.hero-col small{font-size:8px}}
+
+
+/* Cartographie lisible sans rapport annexe : chaque étape indique son objet ou livrable. */
+.process-steps small{line-height:1.5;color:#678390;max-width:270px;font-size:10.5px}
+.process-steps>div{line-height:1.45}
+.chapter-btn{padding:12px 7px;min-height:103px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px}
+.chapter-btn>small{font-size:9px;font-weight:700;letter-spacing:.035em;color:#7e929b}
+.chapter-btn-name{display:block;font-size:11px;font-weight:740;line-height:1.25;color:#365667;overflow-wrap:anywhere}
+.chapter-btn-score{font-size:11px;font-weight:760;color:#197a74}
+.chapter-btn.active .chapter-btn-name{color:#156a66}
+@media(max-width:750px){.chapter-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:490px){.chapter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.chapter-btn{min-height:90px}}
