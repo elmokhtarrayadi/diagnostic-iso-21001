@@ -117,7 +117,7 @@ function auditRefresh(){
  const q=searchInput.value.trim().toLocaleLowerCase("fr"),st=statusInput.value,chap=chapterInput.value;
  shownRecords=auditRecords.filter(rec=>(chap==="all"||rec.chapter===Number(chap))&&
   (st==="all"||rec.score===Number(st))&&
-  (!q||[rec.reference,rec.label,"Chapitre "+rec.chapter,qualityLabel(rec.score)].some(v=>String(v).toLocaleLowerCase("fr").includes(q))));
+  (!q||[rec.reference,rec.label,"Article ISO "+rec.chapter,"Chapitre "+rec.chapter,qualityLabel(rec.score)].some(v=>String(v).toLocaleLowerCase("fr").includes(q))));
  gridBody.innerHTML=shownRecords.map(rec=>'<tr>'+
   '<td><strong class="audit-code">'+rec.reference+'</strong></td>'+
   '<td><span class="audit-chapter">Art. '+rec.chapter+'</span></td>'+
@@ -130,7 +130,8 @@ function auditRefresh(){
 }
 auditChapterCounts.innerHTML=auditGroups.map(g=>{
  const non=g.scores.filter(s=>s===0).length;
- return '<button class="audit-chapter-card" type="button" data-audit-chapter="'+g.chapter+'"><b>ART. '+g.chapter+'</b><strong>'+g.labels.length+' critères</strong><small>'+non+' non conforme'+(non>1?"s":"")+'</small></button>';
+ const domain=({4:"Contexte",5:"Leadership",6:"Planification",7:"Support",8:"Réalisation",9:"Évaluation",10:"Amélioration"})[g.chapter];
+ return '<button class="audit-chapter-card" type="button" data-audit-chapter="'+g.chapter+'"><b>ISO 21001 · ART. '+g.chapter+'</b><strong>'+domain+'</strong><small>'+g.labels.length+' critères · '+non+' non conforme'+(non>1?"s":"")+'</small></button>';
 }).join("");
 auditChapterCounts.querySelectorAll("[data-audit-chapter]").forEach(btn=>btn.addEventListener("click",()=>{
  chapterInput.value=btn.dataset.auditChapter;
@@ -144,7 +145,7 @@ function viewAuditChapter(chapter){
 }
 document.querySelectorAll("[data-chapter]").forEach(btn=>btn.addEventListener("click",()=>viewAuditChapter(Number(btn.dataset.chapter))));
 auditExports.addEventListener("click",()=>{
- const fields=[["Référence","Chapitre","Critère de vérification","Évaluation","Taux"],
+ const fields=[["Référence","Article ISO 21001","Critère de vérification","Évaluation","Taux"],
  ...shownRecords.map(r=>[r.reference,r.chapter,r.label,qualityLabel(r.score),r.score+" %"])];
  const csv="\ufeff"+fields.map(row=>row.map(value=>'"'+String(value).replaceAll('"','""')+'"').join(";")).join("\r\n");
  const url=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));
